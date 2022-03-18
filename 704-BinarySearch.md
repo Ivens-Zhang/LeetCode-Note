@@ -1,6 +1,6 @@
 ## 704. Binary Search
 
-Label：#Array #BinarySearch
+#Array #BinarySearch
 
 ```te
 Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
@@ -26,10 +26,6 @@ Constraints:
 -104 < nums[i], target < 104
 All the integers in nums are unique.
 nums is sorted in ascending order.
-
-来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/binary-search
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 ```
 
 
