@@ -114,3 +114,8 @@ head.next = None
 ### 为什么递归方法中只更新了 `head.next.next`和`head.next ` 的值，`cur` 也发生了变化 ？
 
 以输入 `[1,2,3,4,5]` 为例，完成“递”后第一个 return 回是[5]，这里返回的并不是一个“独立的”，“新的” 节点，而是和此前链表中的 [5] 节点**同样的内存地址**。所以，在后续更新 `head.next.next`的过程中，实际上也**同时改变了处在 `cur` 这个链表上元素的指向**，所以最后会改变 `cur`。
+
+
+
+*P.S. 本题与 [剑指 Offer 24. 反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof)一致。*
+

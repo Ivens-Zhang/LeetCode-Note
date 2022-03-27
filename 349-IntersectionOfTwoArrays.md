@@ -25,7 +25,7 @@ Constraints:
 
 Answer：
 
-```py
+```python
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         result = []
@@ -56,7 +56,7 @@ Notes：
 
 第一次我尝试使用最简单的双循环比对 intersection 项：
 
-```py
+```python
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         result = []
