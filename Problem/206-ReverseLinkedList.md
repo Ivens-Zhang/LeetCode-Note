@@ -6,14 +6,14 @@ Given the head of a singly linked list, reverse the list, and return the reverse
 
 Example 1:
 
-![img](https://gitee.com/zhangyi98/pictureBed/raw/master//img/rev1ex1.jpg)
+![img](https://cdn-pb.dreamoon.top/images/rev1ex1e665deac44efafad.jpg)
 
 - Input: head = [1,2,3,4,5]
 - Output: [5,4,3,2,1]
 
 Example 2:
 
-![img](https://gitee.com/zhangyi98/pictureBed/raw/master//img/rev1ex2.jpg)
+![img](https://cdn-pb.dreamoon.top/images/rev1ex221b0030ff5e1d26d.jpg)
 
 - Input: head = [1,2]
 - Output: [2,1]
@@ -118,4 +118,3 @@ head.next = None
 
 
 *P.S. 本题与 [剑指 Offer 24. 反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof)一致。*
-

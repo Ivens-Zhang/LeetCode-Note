@@ -61,6 +61,7 @@ class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         result = []
 
+        # 两个数组去重
         nums1, nums2 = list(set(nums1)), list(set(nums2))
 
         for num1 in nums1:
@@ -79,7 +80,7 @@ class Solution:
 
 经过优化，测试用例的执行用时也从平均 80+ms 降低到 40+ms：
 
-![image-20220318004322344](https://gitee.com/zhangyi98/pictureBed/raw/master//img/image-20220318004322344.png)
+![image-20220318004322344](https://cdn-pb.dreamoon.top/images/image-20220318004322344.png)
 
 
 
@@ -87,4 +88,6 @@ class Solution:
 
 - 如果涉及到有序、`int` 型数组，二分查找可以优先考虑使用
 - 双循环基本是最差的解法了， $O(n^2)$的复杂度，使用其他算法基本都可以至少优化到$O(log~n)$
+
+
 
