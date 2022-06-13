@@ -39,12 +39,12 @@ Answer：
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:        
         i = 0
-        while i < len(nums):
+        while i <= len(nums) - 1:
             if nums[i] == val:
                 nums.pop(i)
-            else: 
-                i+=1
-                continue
+            else:
+                i += 1
+        return len(nums)
 ```
 
 由于题中说：`It does not matter what you leave beyond the returned k`，其实就意味着：`你不需要考虑数组中超出新长度后面的元素。例如，函数返回的新长度为 2 ，而 nums = [2,2,3,3] 或 nums = [2,2,0,0]，也会被视作正确答案。`
